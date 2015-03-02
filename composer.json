@@ -1,0 +1,21 @@
+{
+    "name": "cbsantos/soapprovider",
+    "description": "Soap Provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian B Santos",
+            "email": "cristian.deveng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "cbsantos/utilitycommon": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+             "SoapProvider\\" : "src/"
+        }
+    }
+}
