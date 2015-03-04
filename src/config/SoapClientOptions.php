@@ -12,11 +12,11 @@ namespace SoapProvider\Config;
  * @version 1.0v
 */
 
-use \UtilityCommon\ObjectFactory;
 
-class SoapClientOptions
+
+class SoapClientOptions extends \UtilityCommon\ObjectFactory
 {
-	use ObjectFactory;
+	
 
 	protected $connection_timeout = 60;
 	protected $uri                = null;

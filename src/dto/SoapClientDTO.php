@@ -13,9 +13,8 @@ namespace SoapProvider\Dto;
 */
 
 
-class SoapClientDTO
+class SoapClientDTO extends \UtilityCommon\ObjectFactory
 {
-	use \UtilityCommon\ObjectFactory;
 
 	protected $wsdl    = null;
 	protected $host    = null;

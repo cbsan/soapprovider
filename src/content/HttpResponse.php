@@ -12,9 +12,9 @@ namespace SoapProvider\Content;
  * @version 1.0v
 */
 
-class HttpResponse
+class HttpResponse extends \UtilityCommon\ObjectFactory
 {
-	use \UtilityCommon\ObjectFactory;
+	
 
 	protected $status = 200;
 	protected $contentType = "Content-type: application/json";

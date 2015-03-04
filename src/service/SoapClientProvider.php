@@ -17,9 +17,8 @@ use \SoapProvider\Dto\SoapClientDTO;
 use \SoapProvider\Factory\SoapBodyFactory;
 use \SoapProvider\Content\HttpResponse;
 
-abstract class SoapClientProvider implements \SoapProvider\Service\SoapClientProviderInterface
+abstract class SoapClientProvider extends \SoapProvider\Content\HttpContext implements \SoapProvider\Service\SoapClientProviderInterface
 {
-	use \SoapProvider\Content\HttpContextTrait;
 
 	protected $soapClient = null;
 	protected $wsdl = null;
